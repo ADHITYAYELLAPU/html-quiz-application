@@ -71,7 +71,7 @@ function selectAnswer(e){
     if(selectedButton.dataset = correct){
         quizscore++
     }
-    document.getElementById('right-answer').innerText=quizScore
+    document.getElementById('right-answer').innerText=quizscore
 }
 
 function setStatusClass(element,correct){
